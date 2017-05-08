@@ -40,7 +40,7 @@ To replicate the work I completed for this assignment follow the steps below. In
     source <downloaded-location-of-scripts>/players_awards_ranked.sql; 
   	```
 
-  	6.3.  A query was written to get the details of a player who won the maximum number of awards for a year during which the coach for that team also has the maximum wins. In order to complete this task, I had to use the scoring data set in addition to the 3 tables above because I needed to figure out what team a player was on by linking player_ID to tmID, and this connection seemed to be missing from the former 3 tables. The script `create_scoring_table.sql` will create a table schema and load the data set into a table named scoring. The file `player_details_query.sql` contains the script for a query to answer the question. 
+  	6.3.  A query was written to get the details of a player who won the maximum number of awards for a year during which the coach for that team also has the maximum wins. In order to complete this task, I had to use the scoring data set in addition to the 3 tables above because I needed to figure out what team a player was on by linking player_ID to tmID, and this connection seemed to be missing from the former 3 tables. The script `create_scoring_table.sql` will create this additional table by creating a table schema and loading the data set into a table named scoring. The file `player_details_query.sql` contains the script for a query to answer the question. 
 
   	```sql
   	source <downloaded-location-of-scripts>/create_scoring_table.sql;
