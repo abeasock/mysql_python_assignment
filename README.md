@@ -8,7 +8,7 @@ To replicate the work I completed for this assignment follow the steps below. In
 	mysql.server start
 	```
 
-3. Connect to MySql by running the command (in my case, I'm using root because I have not usernames set up): 
+3. Connect to MySql by updating the below code with your username (in my case, I'm using root because I have no usernames set up) and running the command: 
 
 	```sql
 	mysql -u root -p
