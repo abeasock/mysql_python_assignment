@@ -20,7 +20,7 @@ To replicate the work I completed for this assignment follow the steps below. In
 	source <downloaded-location-of-scripts>/create_db_schema.sql;
 	```
 
-5. Load the data from the above data sets into the table schemas created in the previous step by running the `load_data.sql script`. **Note:** In the script, you must update the three LOAD DATA INFILE lines to the location you saved the downloaded the data. Once you update the script, you can execute the script by running this command while connected to MySQL: 
+5. Load the data from the above data sets into the table schemas created in the previous step by running the `load_data.sql` script. **Note:** In the script, you must update the three *LOAD DATA INFILE* lines to the location you saved the downloaded the data. Once you update the script, you can execute the script by running this command while connected to MySQL: 
 
 	```sql
 	source <downloaded-location-of-scripts>/load_data.sql;
@@ -47,7 +47,7 @@ To replicate the work I completed for this assignment follow the steps below. In
   	source <downloaded-location-of-scripts>/player_details_query.sql;
   	```
 
-7. The Python script `mysql_python.py` calculates the coach's overall winning percentage. This script will query the coaches table from MySQL and calculate a coach's total games and total wins in the regular season. Then the coach's overall winning is calculated from their total games and total wins. The results are sorted by percentage of wins. This script was developed using Python 2.7. To run this script, update line 10 in the script with you MySQL username and password.
+7. The Python script `mysql_python.py` calculates the coach's overall winning percentage. This script will query the coaches table from MySQL and calculate a coach's total games and total wins in the regular season. Then the coach's overall winning is calculated from their total games and total wins. The results are sorted by percentage of wins. This script was developed using Python 2.7. To run this script, update line 10 in the script with you MySQL username and password (MySQL server must be running).
 
 	```python
 	python <downloaded-location-of-scripts>/mysql_python.py
