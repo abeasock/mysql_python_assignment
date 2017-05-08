@@ -49,6 +49,6 @@ To replicate the work I completed for this assignment follow the steps below. In
 
 7. The Python script `mysql_python.py` calculates the coach's overall winning percentage. This script will query the coaches table from MySQL and calculate a coach's total games and total wins in the regular season. Then the coach's overall winning is calculated from their total games and total wins. The results are sorted by percentage of wins. This script was developed using Python 2.7. To run this script, update line 10 in the script with you MySQL username and password.
 
-```python
-python <downloaded-location-of-scripts>/mysql_python.py
-```
+	```python
+	python <downloaded-location-of-scripts>/mysql_python.py
+	```
